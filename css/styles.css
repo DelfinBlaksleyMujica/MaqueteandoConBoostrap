@@ -1,0 +1,228 @@
+body{
+    background-color: white;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light{
+    color: white;
+}
+
+.nav. div. a{
+    font-family: "Bungee";
+}
+
+.container-fluid .row .videosIndex_titulo{
+    font-family: "Bungee";
+    font-size: 40px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.videosIndex__Centro div{
+    display:flex;
+    justify-content: space-around;
+}
+
+.index__Texto__Container div p{
+    color:white;
+    font-family: "Bungee";
+    background-color: black;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.suscripciones{
+    display:flex;
+    justify-content:space-around;
+}
+
+.suscripciones__titulo{
+    font-family: "Bungee";
+    color:black;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.suscripciones__parrafo{
+    color: black;
+    font-family: "Bungee";
+    display:flex;
+    justify-content:space-around
+}
+
+.suscripciones__email{
+    width: 175px;
+    height:30px;
+    background: linear-gradient(to left,silver,white);
+    color: white;
+    font-family: "Bungee";
+    font-size: 10px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.suscripciones__button{
+    font-family: "Bungee";
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+    width:135px;
+    height:50px;
+    margin-top: 50px;
+    align-content: center;
+
+    }
+
+    .suscripciones__usuarios{
+        display:flex;
+        justify-content:space-around;
+    }
+
+    .canales__titulo{
+        color: black;
+    font-size: 30px;
+    background-color: white;
+    font-weight: bolder;
+    font-family: "Bungee";
+    text-align: center;
+    margin-top: 100px;
+    }
+
+    .ManteneteActivado{
+        background-color: white;
+        border:white solid 2px;
+        text-align: center;
+        background-image: url(../img/LogoPicantitoAchicadoFondoNegro.png);
+        background-repeat: repeat;
+        height:250px;
+        width: 80%;
+        margin-top: 150px;
+    }
+
+    .contactoIndex__titulo{
+        font-family: "Bungee";
+        font-size: 40px;
+        margin-top: 50px;
+        color:black;
+        text-align: center;
+    }
+
+    .NuestraInformacion{
+        color: black;
+        font-family: "Bungee";
+        font-size:15px;
+        margin-top: 30px;
+    }
+
+    .NuestraInformacion div p{
+        text-align: center;
+
+    }
+
+    .instagram{
+        margin-left: 40px;
+    }
+
+    .contactoIndex__Input{
+        font-family: "Bungee";
+        font-size: 10px;
+        display: flex;
+        justify-content: space-around;        
+    }
+    #Nombre{
+        margin-left: 40px;
+    }
+
+    #Telefono{
+        margin-left: 200px;
+    }
+
+    #Email{
+        margin-left: 100px;
+    }
+
+    .contactoIndex__Asunto input{
+        margin-top: 20px;
+        font-family: "Bungee";
+        font-size:10px;
+        width: 180px;
+        margin-left: 130px;
+
+    }
+
+    .contactoIndex__Mensaje{
+        font-family: "Bungee";
+        font-size: 10px;
+        margin-top: 40px;
+        width: 100%;
+        height:200px
+    }
+
+    #BotonEnviarIndex{
+        font-family: "Bungee";
+        color: black
+        ;
+        background-color: white;
+        border: solid 2px black;
+        width:150px;
+        height:50px;
+        margin-top: 50px;
+        
+    }
+
+    .footer{
+        color: white;
+    font-family: "Bungee";
+    font-size: 10px;
+    background-color: rgb(63, 19, 104);
+    margin-top: 20px;
+    text-align: center;
+    }
+
+    .gallery__titulo{
+        font-family: "Bungee";
+        font: size 50px;
+        color: black;
+        display: flex;
+        justify-content:space-around
+    }
+
+    .imagenes__Container{
+        
+
+    }
+
+    #carouselExampleControls{
+        width: 450px;
+        height: 450px;
+    }
+
+    .explicacionDeGaleria{
+        color: black;
+        font-family: "Bungee";
+        font-size:12px;
+    }
+
+    .Bungee{
+        font-family: "Bungee";
+    }
+
+    /*ANIMACIONES-TRANSFORMACIONES-TRANSICIONES*/
+
+.logoMenuDeNavegacion:hover{
+    transform: scale(1.05);
+}
+
+.suscripciones__button:hover{
+    color: white;
+    background-color: black;
+    border: solid 2px white;
+}
+
+.suscripciones__button:hover{
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+}
